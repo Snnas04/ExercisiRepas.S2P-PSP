@@ -5,10 +5,12 @@
 
 public class Exercisi1 {
     public static void main(String[] args) {
-        Calculadora(4, 2);
+        Exercisi1 ex1 = new Exercisi1();
+        ex1.Calculadora(4, 2);
+
     }
 
-    private static void Calculadora(int num1, int num2) {
+    private void Calculadora(int num1, int num2) {
         int resultSum, resultRes, resultMul, resultDiv;
 
         resultSum = num1 + num2;
