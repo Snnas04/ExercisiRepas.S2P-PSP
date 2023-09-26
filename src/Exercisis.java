@@ -4,6 +4,9 @@ public class Exercisis {
     //vosaltres. Per pantalla hem de mostrar la suma, la resta la multiplicació i la divisió
     //d'aquests dos nombres. (Una línia per cada resultat.)
 
+    public static void main(String[] args) {
+
+    }
 
     //Exercici 2
     //A aquesta activitat hem de dissenyar un programa que et faci la mitjana de les notes
