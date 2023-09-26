@@ -15,13 +15,17 @@ public class Exercisi2 {
         double mitjana;
         int mitjanaArrodonida;
 
+        // calculam la mitjana i passam de decimals a enters
         mitjana = (primerTrimestre + segonTrimestre + tercerTrimestre)/3;
         mitjanaArrodonida = (int) mitjana;
 
-        if (mitjana - mitjanaArrodonida > 0.7) {
+        // amb aquest if feim que se arrodonesqui la nota per adalt sempre que superi o iguali el x.7
+        // he posat 0.7 perque crec que es lo més comú entre professors
+        if (mitjana - mitjanaArrodonida >= 0.7) {
             mitjanaArrodonida+=1;
         }
 
+        // mostram el nom de l'alumne i les dues mitjanes, la mitjana amb decimals li aplicam un format perque nomes mostri dos decimals
         System.out.println(alumne + ":\n" + String.format("%.2f", mitjana) + " -> " + mitjanaArrodonida);
     }
 }
