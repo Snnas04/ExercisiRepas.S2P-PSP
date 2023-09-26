@@ -1,12 +1,12 @@
+//Exercici 1
+//A aquest programa hem de definir dos nombre enters amb el valor que vulgueu
+//vosaltres. Per pantalla hem de mostrar la suma, la resta, la multiplicació i la divisió
+//d'aquests dos nombres. (Una línia per cada resultat.)
+
 public class Exercisi1 {
     public static void main(String[] args) {
-        Calculadora(4, 2); // Exercisi 1
+        Calculadora(4, 2);
     }
-
-    //Exercici 1
-    //A aquest programa hem de definir dos nombre enters amb el valor que vulgueu
-    //vosaltres. Per pantalla hem de mostrar la suma, la resta, la multiplicació i la divisió
-    //d'aquests dos nombres. (Una línia per cada resultat.)
 
     private static void Calculadora(int num1, int num2) {
         int resultSum, resultRes, resultMul, resultDiv;
