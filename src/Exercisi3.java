@@ -9,6 +9,7 @@ public class Exercisi3 {
         ex3.souTraballador();
     }
 
+
     private void souTraballador() {
 
     }
