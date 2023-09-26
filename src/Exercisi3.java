@@ -5,6 +5,11 @@
 
 public class Exercisi3 {
     public static void main(String[] args) {
+        Exercisi3 ex3 = new Exercisi3();
+        ex3.souTraballador();
+    }
+
+    private void souTraballador() {
 
     }
 }
