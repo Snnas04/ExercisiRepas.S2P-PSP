@@ -5,11 +5,18 @@
 
 public class Exercisi3 {
     public static void main(String[] args) {
+        double preuHora = Double.parseDouble(args[0]);
+        double hores = Integer.parseInt(args[1]);
+        double dies = Integer.parseInt(args[2]);
+
         Exercisi3 ex3 = new Exercisi3();
-        ex3.souTraballador();
+        ex3.souTraballador(preuHora, (int) hores, (int) dies);
     }
 
-    private void souTraballador() {
+    private void souTraballador(double preuHora, int hores, int dies) {
+        double sou;
+        sou = (preuHora * hores) * dies;
 
+        System.out.println(sou);
     }
 }
